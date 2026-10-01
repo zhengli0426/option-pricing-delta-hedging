@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Selected numerical pricing results relative to the Black--Scholes benchmark.}
+\label{tab:pricing}
+\begin{tabular}{lrrl}
+\toprule
+Method & Resolution & Price & Error metric \\
+\midrule
+Black--Scholes & Analytical & 9.4134 & -- \\
+Monte Carlo & $10^4$ paths & 9.4659 & MAE 0.1044 \\
+Monte Carlo & $10^6$ paths & 9.4094 & MAE 0.0089 \\
+CRR & 100 steps & 9.3936 & Abs. error 0.0198 \\
+CRR & 1,000 steps & 9.4114 & Abs. error 0.0020 \\
+\bottomrule
+\end{tabular}
+\end{table}

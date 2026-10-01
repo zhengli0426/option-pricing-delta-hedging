@@ -1,0 +1,130 @@
+{
+  "origin": "Single-source reproducible study generated from this repository",
+  "study_version": "1.0.4-reproducible",
+  "mode": "full",
+  "config": {
+    "study_version": "1.0.4-reproducible",
+    "master_seed": 20260925,
+    "bootstrap_seed": 20260923,
+    "bootstrap_resamples": 200000,
+    "parameters": {
+      "spot": 100.0,
+      "strike": 100.0,
+      "maturity": 1.0,
+      "rate": 0.03,
+      "volatility": 0.2
+    },
+    "monte_carlo": {
+      "sample_sizes": [
+        100,
+        1000,
+        10000,
+        100000,
+        1000000
+      ],
+      "replications": 50
+    },
+    "crr": {
+      "reported_steps": [
+        10,
+        25,
+        50,
+        100,
+        250,
+        500,
+        1000
+      ],
+      "dense_start": 10,
+      "dense_end": 120,
+      "even_rate_steps": [
+        20,
+        40,
+        80,
+        160,
+        320,
+        640,
+        1280
+      ]
+    },
+    "hedging": {
+      "paths": 5000,
+      "frequencies": [
+        {
+          "label": "Monthly",
+          "steps_per_year": 12
+        },
+        {
+          "label": "Weekly",
+          "steps_per_year": 52
+        },
+        {
+          "label": "Approx. twice-weekly",
+          "steps_per_year": 126
+        },
+        {
+          "label": "Daily",
+          "steps_per_year": 252
+        }
+      ],
+      "cost_bps": [
+        0,
+        5,
+        10,
+        25
+      ]
+    },
+    "gamma_analysis": {
+      "spots": [
+        80.0,
+        100.0,
+        120.0
+      ],
+      "moneyness": [
+        "OTM",
+        "ATM",
+        "ITM"
+      ],
+      "maturities": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "frequencies": [
+        12,
+        52,
+        126,
+        252
+      ]
+    },
+    "sensitivity": {
+      "spots": [
+        80.0,
+        100.0,
+        120.0
+      ],
+      "volatilities": [
+        0.1,
+        0.2,
+        0.5
+      ],
+      "maturities": [
+        0.1,
+        0.25,
+        1.0,
+        2.0
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "notes": {
+    "scientific_outputs": "CSV, statistics JSON and LaTeX macros/tables are generated from fixed seeds and a locked package set. Cross-machine verification permits only last-bit floating-point variation.",
+    "figures": "PNG pixels can vary slightly across rendering stacks; they are generated from deterministic numerical outputs.",
+    "runtime": "Wall-clock runtime is intentionally excluded from the paper and deterministic output set."
+  }
+}

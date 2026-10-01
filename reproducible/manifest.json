@@ -1,0 +1,69 @@
+{
+  "scope": "Exact SHA-256 provenance fingerprints for committed scientific outputs. Cross-machine verification uses tight numerical tolerances for CSV/JSON; environment metadata and PNG rendering are excluded.",
+  "files": [
+    {
+      "path": "data/crr_convergence.csv",
+      "sha256": "1344bd21195f55da0deca0de70ada6077d013309abde325285d0cafb44845575"
+    },
+    {
+      "path": "data/crr_dense.csv",
+      "sha256": "861ffb44ea40dd452a2b4406b5af980f2cf4867fa71ee4f981878633677848c5"
+    },
+    {
+      "path": "data/crr_even_convergence.csv",
+      "sha256": "375cd26af3668b7986d19ffc65886fc61aa798169372441db7e88ede058b0dfc"
+    },
+    {
+      "path": "data/frictionless_hedging.csv",
+      "sha256": "2ec2b77f3b12ca622195d82242f7a8e38021cfda7a8ab85d410ad0b3b61e2af1"
+    },
+    {
+      "path": "data/gamma_exposure_scenarios.csv",
+      "sha256": "65e123bef82e1f4c4de35145bdc6b20d1207ba5f13fc3bc984ca2840dc66bf25"
+    },
+    {
+      "path": "data/gamma_pathwise_correlations.csv",
+      "sha256": "dc006965d4e2b240f7effecdb480f54414c1d646a6d696ef17464db7a8ad6a7b"
+    },
+    {
+      "path": "data/monte_carlo_convergence.csv",
+      "sha256": "6cdf5726571618b3a106747ba8857e9c5d7cd2401178851f249ad8312d8e0bec"
+    },
+    {
+      "path": "data/seed_manifest.csv",
+      "sha256": "86ac02aca3410b4b924a8198dc7d73c3d0b720917ee86e142183c26e1c4a805e"
+    },
+    {
+      "path": "data/sensitivity_grid.csv",
+      "sha256": "d8470e81d5881007fcfa0a018c91045b523c72e85b3cf7b4d3b867b1be81cf1e"
+    },
+    {
+      "path": "data/transaction_cost_sensitivity.csv",
+      "sha256": "2f05af63de6b6f0a227a99fb169ec94da70a27f85e8264211e9cd7daeba4650f"
+    },
+    {
+      "path": "paper_values.tex",
+      "sha256": "75547369a253c8608f04ab3f7fa06df84f1146f6e47c3c14fc3d5ab26147a976"
+    },
+    {
+      "path": "statistics.json",
+      "sha256": "cc2a2b6e88618b2406021eee477a3973eb62343285f4c39bab9dc7cbfad96449"
+    },
+    {
+      "path": "tables/frictionless_hedging_table.tex",
+      "sha256": "d94f204cf710f4eb4eb9fbf23d569d64b3d644ea08bc7b089c2f3bfa367249bb"
+    },
+    {
+      "path": "tables/gamma_correlation_table.tex",
+      "sha256": "4431674b67645c761050a52e266b98ded9d1542a2d866a0128d15726fb62d616"
+    },
+    {
+      "path": "tables/pricing_table.tex",
+      "sha256": "ed4dda893b159bfd16598e13f384f19d6d221f07e09dfa96fe561279c5ac8c57"
+    },
+    {
+      "path": "tables/transaction_cost_table.tex",
+      "sha256": "bc8e436a37cada94bd662940ee7a21f239d295473fc240d4ead0e0d32f57a28e"
+    }
+  ]
+}

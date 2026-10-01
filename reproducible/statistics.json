@@ -1,0 +1,107 @@
+{
+  "black_scholes": 9.413403383853016,
+  "monte_carlo": {
+    "slope": -0.5263080374346686,
+    "standard_error": 0.01580666658370392,
+    "ci_low": -0.5766119051028286,
+    "ci_high": -0.4760041697665086,
+    "r_squared": 0.9973013395909875,
+    "n_points": 5
+  },
+  "crr_even": {
+    "slope": -0.9986125770584677,
+    "standard_error": 0.00034943796609054553,
+    "ci_low": -0.9995108359467818,
+    "ci_high": -0.9977143181701537,
+    "r_squared": 0.9999993877682428,
+    "n_points": 7
+  },
+  "hedging": {
+    "monthly_to_daily_reduction_pct": 77.48754778331231
+  },
+  "gamma_correlations": {
+    "Monthly": {
+      "pearson": 0.91720312511777,
+      "spearman": 0.9500000000000001,
+      "ci_low": 0.7456652278579932,
+      "ci_high": 0.994614221673094,
+      "n_scenarios": 9,
+      "bootstrap_resamples": 200000,
+      "valid_resamples": 200000,
+      "excluded_resamples": 0,
+      "seed": 20260923
+    },
+    "Weekly": {
+      "pearson": 0.9034118170035511,
+      "spearman": 0.9500000000000001,
+      "ci_low": 0.7094496173711499,
+      "ci_high": 0.9900914925915862,
+      "n_scenarios": 9,
+      "bootstrap_resamples": 200000,
+      "valid_resamples": 200000,
+      "excluded_resamples": 0,
+      "seed": 20260923
+    },
+    "Approx. twice-weekly": {
+      "pearson": 0.8966470404941865,
+      "spearman": 0.8833333333333333,
+      "ci_low": 0.6934261933732786,
+      "ci_high": 0.9916759615355835,
+      "n_scenarios": 9,
+      "bootstrap_resamples": 200000,
+      "valid_resamples": 200000,
+      "excluded_resamples": 0,
+      "seed": 20260923
+    },
+    "Daily": {
+      "pearson": 0.9100317386021125,
+      "spearman": 0.9500000000000001,
+      "ci_low": 0.7343657611344252,
+      "ci_high": 0.993261234191456,
+      "n_scenarios": 9,
+      "bootstrap_resamples": 200000,
+      "valid_resamples": 200000,
+      "excluded_resamples": 0,
+      "seed": 20260923
+    }
+  },
+  "pathwise_correlations": {
+    "Monthly": {
+      "pearson": 0.5371498480386433,
+      "spearman": 0.6985868857395491,
+      "n": 45000
+    },
+    "Weekly": {
+      "pearson": 0.5738844663823759,
+      "spearman": 0.7148880503524386,
+      "n": 45000
+    },
+    "Approx. twice-weekly": {
+      "pearson": 0.584548505447898,
+      "spearman": 0.7174838323044035,
+      "n": 45000
+    },
+    "Daily": {
+      "pearson": 0.5900371751594344,
+      "spearman": 0.7224743645387692,
+      "n": 45000
+    }
+  },
+  "sensitivity": {
+    "baseline_delta": 0.5987063256829237,
+    "baseline_gamma": 0.01933340584014246,
+    "baseline_vega": 38.66681168028493,
+    "baseline_theta": -5.380398043561674,
+    "otm_price_vol_10": 0.08963986086417997,
+    "otm_price_vol_50": 10.209505146693573,
+    "otm_delta_vol_10": 0.02995634988928788,
+    "otm_delta_vol_50": 0.4457971596809015,
+    "itm_delta_vol_10": 0.9851179516902424,
+    "itm_delta_vol_50": 0.750048732772287,
+    "gamma_t_2": 0.013250176617201428,
+    "gamma_t_1": 0.01933340584014246,
+    "gamma_t_quarter": 0.03958376869447495,
+    "gamma_t_tenth": 0.06288150100121422,
+    "theta_t_tenth": -14.0906729659144
+  }
+}

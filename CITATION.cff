@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying project manuscript when referring to this study."
+type: software
+title: "Numerical Option Pricing and Dynamic Delta Hedging"
+version: 1.0.4
+date-released: 2026-10-01
+repository-code: "https://github.com/zhengli0426/option-pricing-delta-hedging"
+url: "https://github.com/zhengli0426/option-pricing-delta-hedging/releases/tag/v1.0.4"
+license: MIT
+authors:
+  - family-names: Ji
+    given-names: Zhengli
+preferred-citation:
+  type: unpublished
+  title: "Numerical Option Pricing and Dynamic Delta Hedging: Convergence, Convexity Exposure, and Transaction Costs"
+  authors:
+    - family-names: Ji
+      given-names: Zhengli
+  year: 2026
+  month: 10
